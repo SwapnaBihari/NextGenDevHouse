@@ -9,12 +9,31 @@
             background-color: lightblue;
             font-family: Arial, Helvetica, sans-serif;
         }
-        h1, p{
+        h1{
           color: blue;
+          text-align: center;
+        }
+        p{
+          color: yellowgreen;
         }
         img{
           border: 20px solid red;
           border-radius: 20px;
+        }
+        nav{
+          background-color: blue;
+          padding: 10px;
+        }
+        nav ul{
+          list-style-type: none;
+        }
+        nav ul li{
+          display: inline;
+          margin-right: 10px;
+        }
+        nav ul li a{
+          color: white;
+          text-decoration: none;
         }
         
     </style>
@@ -43,5 +62,16 @@
 
     <!-- Adding images -->
     <img src="/test01/Frontend.jpeg" alt="Frontend" height="250px" width="250px"/>
+    <nav>
+      <ul>
+        <li><a href="https://www.google.co.in/">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <h3>Contact me</h3>
+      <p>this is the footer section</p>
+    </footer>
   </body>
 </html>
