@@ -36,6 +36,24 @@
             border-radius: 10px;
             margin: 4px;
         }
+        table{
+            width: 50%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 18px;
+            text-align: center;
+        }
+        th,td{
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        th{
+            background-color: #f2f2f2;
+            color: black;
+        }
+        tr:hover{
+            background-color: #cf6060;
+        }
     </style>
 </head>
 <body>
@@ -63,5 +81,21 @@
         <input type="email"/>
         <input type="submit"/>
     </form>
+
+    <!--Creating a simple table-->
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Swapna</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Sriya</td>
+            <td>19</td>
+        </tr>
+    </table>
 </body>
 </html>
